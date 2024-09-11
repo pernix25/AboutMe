@@ -1,11 +1,27 @@
+h1 {
+    font-family: helvetica;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    background: linear-gradient(to right, black, white);
+    padding: 10px;
+    border-radius: 5px;
+}
 table {
     border-spacing: 3px;
+    border: solid;
+    border-radius: 10px;
     
 }
 th, td {
     border: 1px solid black;
     padding: 3px;
     width: 16%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.blank_row {
+    visibility: hidden;
 }
 .webDev {
     background-color: turquoise;
@@ -25,11 +41,42 @@ a:hover {
 .poem {
     text-align: center;
     clear: both;
+    text-indent: 0;
 }
 img {
     float: right;
+    margin-bottom: 15px;
+    border-radius: 90px;
 }
 body {
     font-family: garamond;
-    font-size: large;
+    font-size: 12px;
+    margin: 15px;
+    background-image: url("../images/marble_background.jpg");
+    background-size: cover;
+}
+p {
+    margin-bottom: 15px;
+    text-indent: 30px;
+}
+.interest_section {
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    border-radius: 5px;
+}
+.line {
+    border: solid;
+    clear: both;
+    margin-top: 15px;
+}
+.poem_block {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(223, 223, 223);
+}
+.center_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
