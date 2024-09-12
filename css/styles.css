@@ -2,7 +2,6 @@ h1 {
     font-family: helvetica;
     font-size: 30px;
     color: white;
-    text-decoration: underline;
     background: linear-gradient(to right, black, white);
     padding: 10px;
     border-radius: 5px;
@@ -47,6 +46,7 @@ img {
     float: right;
     margin-bottom: 15px;
     border-radius: 90px;
+    border: solid white 5px;
 }
 body {
     font-family: garamond;
@@ -68,6 +68,7 @@ p {
     border: solid;
     clear: both;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .poem_block {
     display: inline-block;
