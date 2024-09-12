@@ -5,6 +5,12 @@ h1 {
     background: linear-gradient(to right, black, white);
     padding: 10px;
     border-radius: 5px;
+    margin-top: 0.75em;
+    margin-bottom: 0.20em;
+}
+h2 {
+    margin-top: 0.75em;
+    margin-bottom: 0.20em;
 }
 table {
     border-spacing: 3px;
